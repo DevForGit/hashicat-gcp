@@ -1,7 +1,8 @@
 
 module "network" {
-  source  = "terraform-google-modules/network/google"
+  source  = "app.terraform.io/KV2-training/network/google"
   version = "2.5.0"
+  # insert required variables here
   # insert the 3 required variables here
   network_name = "my-network"
   project_id = var.project
