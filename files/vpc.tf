@@ -1,5 +1,4 @@
 
-
 module "network" {
   source  = "terraform-google-modules/network/google"
   version = "2.5.0"
@@ -13,3 +12,4 @@ module "network" {
     subnet_region = var.region
   }
   ]
+}
