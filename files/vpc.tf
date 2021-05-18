@@ -13,4 +13,3 @@ module "network" {
     subnet_region = var.region
   }
   ]
-]
